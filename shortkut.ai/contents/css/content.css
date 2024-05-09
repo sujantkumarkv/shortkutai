@@ -1,0 +1,22 @@
+.mantine-Drawer-root {
+  position: relative;
+  z-index: 999999;
+}
+
+.mantine-Drawer-body {
+  padding: 0px !important;
+}
+
+.mantine-Button-inner {
+  flex: 1;
+  display: flex;
+  /* justify-content: center !important; */
+}
+
+.mantine-Button-rightIcon {
+  flex: 1;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+

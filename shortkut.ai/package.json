@@ -1,0 +1,55 @@
+{
+  "name": "shortkut",
+  "displayName": "Shortkut",
+  "version": "0.0.1",
+  "description": "Boost your productivity with AI powered shortcuts",
+  "author": "uditkumar01",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@emotion/react": "11.11.0",
+    "@mantine/core": "^6.0.11",
+    "@mantine/form": "^6.0.11",
+    "@mantine/hooks": "^6.0.11",
+    "@mantine/modals": "^6.0.11",
+    "@mantine/notifications": "^6.0.11",
+    "@nanostores/react": "github:ai/react",
+    "@plasmohq/storage": "^1.6.1",
+    "@tabler/icons-react": "^2.20.0",
+    "ai": "^2.1.8",
+    "firebase": "^9.22.1",
+    "openai-edge": "^0.5.1",
+    "plasmo": "0.72.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-draggable": "^4.4.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.21.8",
+    "@plasmohq/prettier-plugin-sort-imports": "3.6.4",
+    "@types/chrome": "0.0.236",
+    "@types/node": "^20.2.3",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "13.4.4-canary.11",
+    "postcss": "^8.4.23",
+    "prettier": "2.8.8",
+    "tailwindcss": "^3.3.2",
+    "typescript": "5.0.4",
+    "uuid": "^9.0.0"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*/*"
+    ],
+    "permissions": [
+      "storage",
+      "tabs"
+    ]
+  }
+}
