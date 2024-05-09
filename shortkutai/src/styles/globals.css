@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Circular";
+  src: url("../../public/fonts/Circular/CircularStd-Book.otf")
+    format("opentype");
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: Circular !important;
+}
